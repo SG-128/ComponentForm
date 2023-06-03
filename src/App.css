@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background: linear-gradient(360deg, #000000, #19cbdf, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #ffffff;
+  /* background: linear-gradient(180deg, #000000, #19cbdf, #ffffff); */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .App-logo {
